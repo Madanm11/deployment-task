@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aesthetic Static Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(15px);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      width: 350px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      transition: 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      margin-bottom: 25px;
+      color: #f0f0f0;
+    }
+
+    button {
+      padding: 10px 25px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #1f1c2c;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #1f1c2c;
+      color: white;
+      border: 1px solid white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Welcome ✨</h1>
+    <p>Create. Build. Inspire.<br>Simple static aesthetic design.</p>
+    <button>Explore</button>
+  </div>
+
+</body>
+</html>
